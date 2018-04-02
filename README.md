@@ -18,5 +18,7 @@ ACCESS_TOKEN = <INSERT YOUR ACCESS TOKEN>
 
 ## Run the script
 ```
->>> python cloudbit-demo.py
+>>> python cloudbit-demo.py [Sample Frequency] [Append Log]
 ```
+
+Where `Sample Frequency` is the time between subsequent API calls specificed in seconds, and `Append Log` will append the log file rather than overwrite by specifiying either `-a` or `-A`. Note the delay is important as the littleBits API is rate limited.
