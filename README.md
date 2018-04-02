@@ -5,7 +5,7 @@ This littleBits-powered home temperature sensor project was devleoped as a learn
 ## Install Partly-Cloudy API
 The CloudBit example script uses the Partly-Cloudy API wrapper which will first need to be installed.
 ```
->>> git clone 
+>>> git clone https://github.com/rpmurph/home-sensors.git
 >>> python setup.py sdist
 >>> python setup.py install
 ```
