@@ -1,6 +1,6 @@
 # home-sensors
 
-This littleBits-powered home temperature sensor project was devleoped as a learning tool for an elementary school student to teach some fundamentsals of IoT devices, coding, and visualization. The core script makes use of an exisitng API wrapper for the libbleBits Cloud.
+This littleBits-powered home temperature sensor project was devleoped as a learning tool for an elementary school student to teach some fundamentsals of IoT devices, coding, and visualization of time series data. The core script makes use of an exisitng API wrapper for the libbleBits Cloud.
 
 ## Install Partly-Cloudy API
 The CloudBit example script uses the Partly-Cloudy API wrapper which will first need to be installed.
