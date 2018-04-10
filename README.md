@@ -2,8 +2,6 @@
 
 This littleBits-powered home temperature sensor project was devleoped as a learning tool for an elementary school student to teach some fundamentsals of IoT devices, coding, and visualization of time series data. The core script makes use of an exisitng API wrapper for the libbleBits Cloud.
 
-![Screenshot](littlebit-schematic-2018-04-10.jpg)
-
 ## Install Partly-Cloudy API
 The CloudBit example script uses the Partly-Cloudy API wrapper which will first need to be installed.
 ```
@@ -24,3 +22,7 @@ ACCESS_TOKEN = <INSERT YOUR ACCESS TOKEN>
 ```
 
 Where `Sample Frequency` is the time between subsequent API calls specificed in seconds, and `Append Log` will append the log file rather than overwrite by specifiying either `-a` or `-A`. Note the delay is important as the littleBits API is rate limited.
+
+## littleBits Schematic
+
+![Screenshot](littlebit-schematic-2018-04-10.jpg)
